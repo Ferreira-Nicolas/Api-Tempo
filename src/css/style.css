@@ -1,0 +1,86 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #222;
+  color: #fff; /* Define a cor do texto como branco */
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #333; /* Cor de fundo mais escura */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra mais escura */
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #fff; /* Cor do texto branco */
+}
+
+input[type="text"] {
+  width: 200px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+  font-size: 16px;
+  background-color: #444; /* Cor de fundo do input mais escura */
+  color: #fff; /* Cor do texto branco */
+}
+
+button.atualiza {
+  padding: 10px 20px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.card {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #444; /* Cor de fundo do cartão mais escura */
+  border-radius: 10px;
+}
+
+.card span {
+  display: block;
+  margin-bottom: 10px;
+}
+
+iframe#mapa {
+  margin-top: 20px;
+  border: none;
+  border-radius: 15px;
+  width: 100%;
+  max-width: 450px;
+  height: 300px;
+}
+
+.result {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 20px;
+}
+
+.card {
+  padding: 20px;
+  background-color: #444; /* Cor de fundo do cartão mais escura */
+  border-radius: 10px;
+}
+
+.card p {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.card span {
+  display: block;
+  margin-bottom: 10px;
+}
